@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Today's Birthday",
+  "description": "This extension displays the details of people having birthday today using data from channeli portal. To use this extension you must be logged into channeli portal. Developed by Chirag.",
+  "version": "1.2",
+
+  "browser_action": {
+    "default_icon": "icon32.png",
+    "default_popup": "popup.html",
+    "default_title": "Click to see Birthdays!" },
+
+  "icons": { "16": "icon16.png",
+  			"32": "icon32.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+
+  "permissions": [
+  "https://channeli.in/birthday/today"
+  ]
+
+}

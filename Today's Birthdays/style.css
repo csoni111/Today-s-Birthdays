@@ -1,0 +1,39 @@
+body {
+    
+    background-color: #f8f8f8;
+    padding: 2px;
+}    
+.content-title {
+	font-variant: small-caps;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.user-photo {
+	height: 65px;
+	width: 65px;
+
+}
+.name {
+	text-transform:capitalize;
+	padding: 0px 2px 0px 2px;
+	font-variant: small-caps;
+    vertical-align: sub;
+
+}
+.yr_branch {
+    vertical-align: super;
+	font-size: 0.8em;
+	font-weight: lighter;
+	color: #808080;
+    padding: 0px 2px 0px 2px;
+}
+header {
+    background-image: url("bg_balloons.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 0;
+    background-color: #f6f7f8;
+    padding: 20px;
+}
